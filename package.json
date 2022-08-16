@@ -1,0 +1,29 @@
+{
+  "name": "pulx",
+  "version": "1.0.0",
+  "description": "NodeJs Package Manager with ability pull module from url",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@helper-modules/log": "^1.0.0",
+    "@helper-modules/random": "^1.0.0",
+    "axios": "^0.27.2",
+    "commander": "^9.4.0",
+    "filic": "^1.7.0",
+    "is-url": "^1.2.4",
+    "live-plugin-manager": "^0.17.1",
+    "npm": "^8.17.0",
+    "tar": "^6.1.11",
+    "urljoin": "^0.1.5",
+    "zlib": "^1.0.5"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "pulx": "./index.js"
+  }
+}
